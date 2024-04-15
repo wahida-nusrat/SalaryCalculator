@@ -17,7 +17,7 @@ mainService();
 void mainService()
 {
     // take input for gross salary and pay freequency
-    var inputServic = new InputServic();
+    var inputServic = new InputService();
     var userInput = inputServic.UserInput();
 
     // performing all calculations
@@ -29,10 +29,12 @@ void mainService()
     outputService.Dispaly(taxPayer);
 
     Console.WriteLine("Do you want to continue another calculation? (y/n)");
-    string cont= Console.ReadLine();
-    if (cont.ToLower()=="y")
+    string cont = Console.ReadLine();
+    if (cont.ToLower() == "y")
     {
         mainService();
     }
-    
+
 }
+
+

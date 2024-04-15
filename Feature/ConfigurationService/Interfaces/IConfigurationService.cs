@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace SalaryCalculator.Feature.Configuration.Interfaces
+namespace RegistrationService.Interfaces
 {
     public interface IConfigurationService
     {

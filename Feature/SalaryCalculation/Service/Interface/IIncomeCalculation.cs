@@ -8,7 +8,7 @@ namespace SalaryCalculaton.Services.Interface
         decimal CalculateTaxableIncome(int grossSalary, decimal super);
         decimal CalculateDeductions(List<TaxableDeduction> taxableDeductions);
         decimal CaclulateNetIncome(decimal grossIncome, decimal super, decimal taxableDeductions);
-        string CalculatePayPacket(string payFreequency, decimal netIncome);
+        string CalculatePayPacket(char payFreequency, decimal netIncome);
         List<TaxableDeduction>? GetTaxableDeductions(decimal taxableIncome);
     }
 }

@@ -1,4 +1,4 @@
-﻿using SalaryCalculator.Feature.Configuration.Interfaces;
+﻿using RegistrationService.Interfaces;
 using SalaryCalculator.Foundation.IoC;
 using Microsoft.Extensions.Configuration;
 using Logging.Interface;
@@ -16,8 +16,9 @@ namespace SalaryCalculator
 
         public static void LoggingSetup()
         {
-            var serviceProvider = Container.GetServiceProvider<Ilogger>();
-            serviceProvider.Configure();
+            //var serviceProvider = Container.GetServiceProvider<Ilogger>();
+            var serviceProvider = Container.GetServiceProvider<ILoggerService>();
+            serviceProvider.ConfigureLoggingConfiguration();
         }
     }
 }

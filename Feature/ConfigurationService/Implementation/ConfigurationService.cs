@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
-using SalaryCalculator.Feature.Configuration.Interfaces;
+using RegistrationService.Interfaces;
 using Config = SalaryCalculator.Foundation.Configuration;
-namespace SalaryCalculator.Feature.Configuration.Implementation
+namespace RegistrationService.Implementation
 {
     public class ConfigurationService : IConfigurationService
     {

@@ -2,10 +2,10 @@
 
 namespace SalaryCalculation.IO
 {
-    public class InputServic
+    public class InputService
     {
         private int _grossSalary;
-        private string _payFreequency;
+        private char _payFreequency;
         public Input UserInput()
         {
             Input userInput = new Input();
@@ -37,9 +37,9 @@ namespace SalaryCalculation.IO
         }
         private void PayFreequencyValidation()
         {
-            string payFreequency = Console.ReadLine();
+            char payFreequency = Char.Parse(Console.ReadLine().ToLower());
             // validate if any input without upper and lower case of w, f and m
-            if (payFreequency.ToLower() == "w" || payFreequency.ToLower() == "f" || payFreequency.ToLower() == "m")
+            if (payFreequency == 'w' || payFreequency == 'f' || payFreequency == 'm')
             {
                 _payFreequency = payFreequency;
             }

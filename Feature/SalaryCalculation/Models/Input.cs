@@ -10,6 +10,6 @@ namespace SalaryCalculation.Models
     public class Input
     {
         public int GrossSalary { get; set; }
-        public string PayFreequency { get; set; }
+        public char PayFreequency { get; set; }
     }
 }

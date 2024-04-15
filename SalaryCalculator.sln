@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration", "Foundation
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "Foundation\IoC\IoC.csproj", "{9051DF88-1488-4850-9E39-1BD644FF2C26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationService", "Feature\ConfigurationService\ConfigurationService.csproj", "{1028CC02-663D-4F84-BB76-2CAF66E85B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationService", "Feature\ConfigurationService\RegistrationService.csproj", "{1028CC02-663D-4F84-BB76-2CAF66E85B6A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator", "Project\SalaryCalculator\SalaryCalculator.csproj", "{D997A262-E049-4F8C-93B9-0BC6D19938AF}"
 EndProject
@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculation", "Featur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculatorTest", "SalaryCalculatorTest\SalaryCalculatorTest.csproj", "{E5793F00-2039-4D38-B7BC-07D7EF0FE63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Foundation\Logging\Logging.csproj", "{CA5FF9F9-2477-4CB1-A1B9-497C7BED44C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Foundation\Logging\Logging.csproj", "{CA5FF9F9-2477-4CB1-A1B9-497C7BED44C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

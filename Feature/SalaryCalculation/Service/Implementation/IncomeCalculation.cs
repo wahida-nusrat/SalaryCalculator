@@ -58,7 +58,7 @@ namespace SalaryCalculaton.Services.Implementation
             netIncome= grossIncome - (super + taxableDeductions);
             return netIncome;
         }
-        public string CalculatePayPacket(string payFreequency, decimal netIncome)
+        public string CalculatePayPacket(char payFreequency, decimal netIncome)
         {
             string payPacket=string.Empty;
             var payPocketConfigurations = _configuration.GetSection(_payFreequencyConfiguration)?.GetChildren()?.ToList();
@@ -67,10 +67,11 @@ namespace SalaryCalculaton.Services.Implementation
                 var payPocketModel = new PayPacket();
                 foreach (var payPocketConfig in payPocketConfigurations)
                 {
-                    // take the pay packet config as per user input 
-                    if(payPocketConfig.Key.ToLower()==payFreequency.ToLower())
+                    var PayFreequencyKey = char.Parse(payPocketConfig.Key.ToLower());
+                    // take the specific pay packet config as per user input and map it to model 
+                    if (PayFreequencyKey == payFreequency)
                     {
-                        payPocketModel.PayFreequency = payPocketConfig.Key;
+                        payPocketModel.PayFreequency = PayFreequencyKey;
                         payPocketModel.NoOfPayPerYear = Convert.ToInt32(payPocketConfig.GetSection("NoOfPayPerYear").Value);
                         payPocketModel.PayFreequencyName = payPocketConfig.GetSection("DisplayFreequency").Value;
                         break;    
@@ -81,6 +82,7 @@ namespace SalaryCalculaton.Services.Implementation
             return payPacket;
         }
 
+        // calculate paymaent/ cycle based on the config
         private string buildPayPacketAsString(PayPacket payPacket, decimal netIncome)
         {
             decimal pay = Math.Round((netIncome / payPacket.NoOfPayPerYear), 2);
