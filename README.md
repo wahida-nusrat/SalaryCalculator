@@ -11,7 +11,7 @@
 * Perform logging and the location of the log file in the root folder.
 
 ## Architecture
-* Ensure separation of concerns through Helix architecture principle. Ensured decoupling by not referring feature to feature.
+* Ensure separation of concerns through Helix architecture principle. Ensured decoupling by not referring feature to feature, foundation to foundation.
 * Use data layer (Model), business layer (Service), Presentation layer (IO) in feature project.
   
 ## Design Pattern
