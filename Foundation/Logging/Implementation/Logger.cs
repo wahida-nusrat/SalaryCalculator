@@ -5,11 +5,6 @@ namespace Logging.Implementation
     public class Logger : Ilogger
     {
         private static readonly ILog  log = LogManager.GetLogger(typeof(Logger));
-        public void Configure() 
-        {
-            LoggingConfigure.Configure();
-        }
-
         public void Error(string message)
         {
             log.Error(message);

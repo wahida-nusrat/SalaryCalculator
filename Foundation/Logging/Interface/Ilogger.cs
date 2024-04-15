@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Logging.Interface
+﻿namespace Logging.Interface
 {
     public interface Ilogger
     {
@@ -12,8 +6,5 @@ namespace Logging.Interface
         void Info(string message);
         void Warn(string message);
         void Error(string message);
-
-        void Configure();
-
     }
 }

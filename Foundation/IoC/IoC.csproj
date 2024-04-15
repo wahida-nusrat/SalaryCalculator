@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Feature\ConfigurationService\ConfigurationService.csproj" />
-    <ProjectReference Include="..\Logging\Logging.csproj" />
+    <ProjectReference Include="..\..\Feature\ConfigurationService\RegistrationService.csproj" />
   </ItemGroup>
 
 </Project>

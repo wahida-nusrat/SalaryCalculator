@@ -1,8 +1,8 @@
 ﻿using Logging.Implementation;
 using Logging.Interface;
 using Microsoft.Extensions.DependencyInjection;
-using SalaryCalculator.Feature.Configuration.Implementation;
-using SalaryCalculator.Feature.Configuration.Interfaces;
+using RegistrationService.Implementation;
+using RegistrationService.Interfaces;
 
 namespace SalaryCalculator.Foundation.IoC
 {
@@ -16,7 +16,7 @@ namespace SalaryCalculator.Foundation.IoC
             // add configuration to service collection
             // in future we can add anyy serice like caching
             serviceCollection.AddSingleton<IConfigurationService, ConfigurationService>();
-            serviceCollection.AddSingleton<Ilogger, Logger>();
+            serviceCollection.AddSingleton<ILoggerService, LoggerService>();
 
             return serviceCollection;
         }
