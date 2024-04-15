@@ -49,6 +49,9 @@
 * Implement caching
 
 ## Result Mismatch
-* Income Tax calculation has little difference because of the requirement is nearest rounded up dollar. Mathc.Celing givigh that result.
+* Income Tax calculation has little difference because of the requirement is nearest rounded up dollar. From the formula the result is 10839.23. When Math.Ceiling method is used it returns 10840 not 10839. It impacted on net income and pay packet as well.
+
+* ## Contributor
+* Wahida Nusrat(nusrat_cse@yahoo.com)
 
 
