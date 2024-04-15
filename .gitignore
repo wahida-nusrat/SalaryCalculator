@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Project/SalaryCalculator/bin/Debug/net8.0
+/Feature/ConfigurationService/obj
+/Feature/ConfigurationService/bin/Debug/net8.0
+/Feature/SalaryCalculation/bin/Debug/net8.0
+/Feature/SalaryCalculation/obj/Debug/net8.0
+/Foundation/Configuration/bin/Debug/net8.0
+/Foundation/Configuration/obj
+/Foundation/IoC/bin/Debug/net8.0
+/Foundation/IoC/obj/Debug/net8.0
+/Foundation/IoC/obj
+/Foundation/Logging/bin/Debug/net8.0
+/Foundation/Logging/obj/Debug/net8.0
+/Project/SalaryCalculator/logs
+/SalaryCalculatorTest/bin/Debug/net8.0
+/SalaryCalculatorTest/obj/Debug/net8.0
+/SalaryCalculatorTest/obj
+/Project/SalaryCalculator/obj/Debug/net8.0

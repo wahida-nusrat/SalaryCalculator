@@ -14,9 +14,9 @@ namespace SalaryCalculation.Service
             _configuration = configuration;
             _logger = logger;
         }
-        public TaxPayer Calculaton(Input userInput)
+        public SingleTaxPayer Calculaton(Input userInput)
         {
-            var taxPayer = new TaxPayer();
+            var taxPayer = new SingleTaxPayer();
             
             // calculation
             var incomeCalculation = new IncomeCalculation(_configuration,_logger);

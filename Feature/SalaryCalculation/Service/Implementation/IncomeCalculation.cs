@@ -133,7 +133,7 @@ namespace SalaryCalculaton.Services.Implementation
                         if (_taxableIncome >= incomeTiers[index - 1] + 1 && _taxableIncome <= incomeTiers[index])
                         {
                             // exception in income excess in medical levy and heighest tier 
-                            int incomeExcess = (index == incomeTiers.Length - 1 && deductionName == "MedicalLevy") ? 0 : incomeTiers[index - 1];
+                            int incomeExcess = (index == incomeTiers.Length - 1 && deductionName == "Medical Levy") ? 0 : incomeTiers[index - 1];
                             deduction = (int)Math.Ceiling((_taxableIncome - incomeExcess) * rate[index - 1] / 100);
                             //income tax has extra tax amount except for firat two tier
                             // cofig 0 for extra tax for first two tier

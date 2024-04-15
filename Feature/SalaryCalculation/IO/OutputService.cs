@@ -10,7 +10,7 @@ namespace SalaryCalculation.IO
 {
     public class OutputService
     {
-        public void Dispaly(TaxPayer taxPayer)
+        public void Dispaly(SingleTaxPayer taxPayer)
         {
             // convert all value in currency format
             Console.WriteLine("Gross Package: " + taxPayer.GrossSalary.ToString("C"));
