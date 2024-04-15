@@ -19,11 +19,13 @@
 * Implement encapsulation by using private methods and property.
 * Implement the SOLID principle to maintain code quality and extendability. 
 * A Singleton design pattern is used.
+* Implement factory design pattern by using tax payer as base class. Only single tax payer is used here, but has scope to add executive, family tax payer in future.
 * Dependency Injection is used to inject dependency(configuration, logger) in classes for promoting loose coupling and easier unit testing. 
   
 ## Scope
 * Provide flexibility for changing super rate, income tier, deduction rate, extra tax payment(if any (currently only for income tax)) etc in appsettings.json config file if any changes in future.
 * Provide flexibility for adding any new deduction (currently we have medical levy, budget repair levy, income tax). If any new deduction comes just add it in the config file. Code will handle it.
+* Provide flexibility for calculating income tax for different role like executive, single or family level.
 * Provide flexibility for any modification in salary calculation rules in the implementation of IncomeCalculation class.
 * Provide flexibility for adding new rules like bonus by adding and modifying the method in IncomeCalculation class and use it through CalculationService.
 * As logging is implemented in the foundation layer and injected through DI, there is a scope to replace logging framework by changing that specific project only. No need to change where it is used.
