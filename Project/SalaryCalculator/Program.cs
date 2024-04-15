@@ -2,6 +2,7 @@
 using Logging.Interface;
 using SalaryCalculation.Service;
 using SalaryCalculator;
+using SalaryCalculation.IO;
 
 // setup configuration from appsettings.cs
 var configuration = Setup.ConfigurationSetup();
