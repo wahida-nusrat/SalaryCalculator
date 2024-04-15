@@ -6,7 +6,7 @@
 * Display breakdown calculated salary.
 * Ensure separation of concern through clean architecture design.
 * Provide extension and modification of business logic by using a separate business layer.
-* Implement unit tests for some scenarios  and mocking where we have dependency in classes.
+* Implement unit tests for some scenarios  and mocking where we have dependency in classes. Implement exception handling in usit test.
 * Perform logging and the location of the log file in the root folder.
 
 ## Architecture
