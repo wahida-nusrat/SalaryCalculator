@@ -1,11 +1,11 @@
 # SalaryCalculator
-This is a console application which take individual gross salary package and pay freequency as input and breakdown the salary and dispay pay packet.
+* This is a console application which take individual gross salary package and pay freequency as input and breakdown the salary and dispay pay packet.
 ## Feature
-Accept input from user 
-Calculate super, taxable incone, taxalbe deductions (medical levy, budget repair levy, income tax), net income and pay packet as per user requirement.
-Display breakdown salay
-Implement SOLID principle to maintain code quality and extendability.
-Implement unit test for some scenerios using xunit framework and mocking where we have depenency injection.
+* Accept input from user 
+* Calculate super, taxable incone, taxalbe deductions (medical levy, budget repair levy, income tax), net income and pay packet as per user requirement.
+* Display breakdown salay
+* Implement SOLID principle to maintain code quality and extendability.
+* Implement unit test for some scenerios using xunit framework and mocking where we have depenency injection.
 
 ## Architecture
 Ensure seperation of concerns through Helix arcitechure design. Confirming decoupling feature of Helix by not refereing feature to feature, foundation to foundation
