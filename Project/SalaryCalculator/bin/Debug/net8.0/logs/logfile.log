@@ -1,0 +1,14 @@
+2024-04-15 00:40:20,912 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:00:20,281 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:01:14,761 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:04:21,674 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:08:47,522 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:09:36,476 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
+2024-04-15 01:13:12,869 [1] ERROR Logging.Implementation.Logger - System.Exception: OverflowException
+   at SalaryCalculaton.Services.Implementation.IncomeCalculation.CalculateSuper(Int32 grossSalary) in C:\Personal\Reshma\Job\Job\Attura\Project\SalaryCalculator\Feature\SalaryCalculation\Service\Implementation\IncomeCalculation.cs:line 28
