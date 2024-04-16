@@ -31,6 +31,7 @@
 * Provide flexibility for adding new rules like bonus by adding and modifying the method in IncomeCalculation class and use it through CalculationService.
 * As logging is implemented in the foundation layer and injected through DI, there is a scope to replace logging framework by changing that specific project only. No need to change where it is used.
 * Scope of adding any new service like caching by creating a project in the foundation layer and injecting it through dependency injection. Reading config file could be a candidate.
+* Scope of growing the project in enterprise level by designing multiple seperate projects.
 
 ## Technology
 * .Net Core 8
