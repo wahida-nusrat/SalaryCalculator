@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Feature\ConfigurationService\RegistrationService.csproj" />
+    <ProjectReference Include="..\..\Feature\SalaryCalculation\SalaryCalculation.csproj" />
   </ItemGroup>
 
 </Project>
