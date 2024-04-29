@@ -6,7 +6,6 @@ var serviceProvider = Container.Register();
 var calculationService = Container.GetService<CalculatorService>(serviceProvider);
 mainService();
 
-
 void mainService()
 {
     // take input for gross salary and pay freequency
