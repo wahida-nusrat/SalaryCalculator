@@ -37,9 +37,11 @@ namespace SalaryCalculation.IO
         }
         private void PayFreequencyValidation()
         {
-            char payFreequency = Char.Parse(Console.ReadLine().ToLower());
+            char payFreequency;
+            //char payFreequency = char.TryParse(Console.ReadLine().ToLower());
             // validate if any input without upper and lower case of w, f and m
-            if (payFreequency == 'w' || payFreequency == 'f' || payFreequency == 'm')
+           
+            if (char.TryParse(Console.ReadLine().ToLower(), out payFreequency) && (payFreequency == 'w' || payFreequency == 'f' || payFreequency == 'm'))
             {
                 _payFreequency = payFreequency;
             }
